@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+
+.bg-primary-color{
+    background-color: black
+}
+
+.bg-secondary-color{
+    background-color: white;
+}
+
+/*Navbar*/
+
+span{
+    color: white;
+}
+
+#navbar{
+    border-bottom: 1px solid white;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+.navbar-brand span{
+    font-weight: 200px;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+#navbar-items .nav-item{
+    margin-right: 1rem;
+    
+}
+
+#navbar-items .nav-item-i{
+    margin-right: 2.2rem;
+    margin-left: 1rem;
+}
+
+/*Fundo-Tela*/
+
+.kayn-background{
+    background-image: url(/img/Kayn_8.jpg);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 5rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center center;
+}
+
+/*Slider*/
+
+#slider{
+    margin-top: 8.5rem;
+}
+
+#slider .carousel-caption{
+    font-weight: 10px;
+    bottom: 20rem;
+}
+
+@media(min-width: 768px) {
+    .div-img-carousel, .item.active {
+        overflow: hidden;
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+    }
+}
+
+/*Mini-Banners*/
+
+#mini-banners{
+    margin-bottom: 4rem;
+    
+}
+
+#mini-banners .card{
+    padding: 2rem 0.5rem;
+    border-radius: 0;
+    background-color: black;
+    border-color: white;
+    border-radius: 3px;
+}
+
+#mini-banners .card-title{
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#mini-banners .btn{
+    margin-top: 2rem;
+}
+
+@media(min-width: 768px){
+    #mini-banners{
+        margin-top: -5rem;
+    }
+}
+
+/*Meio*/
+
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    position: relative;
+    color: white;
+    letter-spacing: 0.2rem;
+    margin-bottom: 5rem;
+}
+
+.main-title:before{
+    width: 100%;
+    border-top: 3px solid white;
+    content: '';
+    position: absolute;
+    bottom: 3rem;
+}
+
+/*Info*/
+
+#featured-container .card{
+    border-radius: 0;
+    
+}
+
+#featured-container .card-body{
+    background-color: black;
+    color: white;
+}
+
+/*Footer*/
+
+footer{
+    margin-top: 5rem;
+}
+
+
+
